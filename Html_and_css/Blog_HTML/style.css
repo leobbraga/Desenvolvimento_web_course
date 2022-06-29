@@ -1,0 +1,60 @@
+body {
+    background: #f7f7f7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 700px;
+    margin: auto;
+    
+}
+.MyPicture {
+    border: 1px solid #505050;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.subtitle, .post_title {
+    color: #505050;
+    text-align: center;
+}
+.title {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: line-through;
+    color: #505050;
+}
+.post_title {
+font-size: 16px;
+font-style: italic;
+margin: 0;
+margin-bottom: 15px;
+}
+
+.post {
+    background: #fff;
+    padding: 10px;
+    border: 3px solid #505050;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    height: fit-content;
+}
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.Post_Picture {
+    height:200px; 
+    width:100%;
+    margin-bottom: 15px;
+}
+.contacts_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+.contacts_list li a {
+    text-decoration: none;
+    padding: 56px 56px;
+}

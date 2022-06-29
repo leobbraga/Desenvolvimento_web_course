@@ -1,0 +1,137 @@
+body {
+    background-color: #f7f7f7;
+    margin: auto;
+}
+.Container_Phone_continue {
+    display: flex;
+    width: 100%;
+    justify-content: center ;
+    border: none;
+    margin: auto;
+    align-items: center;
+}
+.PhoneImages {
+    display: flex;
+    align-items: center;
+}
+.PhoneImages img {
+    align-self: center;
+    width: 470px;
+    height: 620px;
+}
+.PhoneOut {
+   padding-top: 30px;
+}
+.PhoneInside {
+position: absolute;
+padding-left: 160px;
+padding-bottom: 10px;
+}
+.PhoneInside img {
+    height: 530px;
+    width: 250px;   
+}
+.Continue, .My_picture, .Enter {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.logo {
+    padding-bottom: 20px;
+}
+.logo img {
+    cursor: pointer;
+}
+.Continue {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbd4d4;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    border-radius: 1px;
+    width: 350px;
+    height: 353px;
+}
+.logo img {
+    height: 51px;
+    width: 175px;
+}
+.My_picture img {
+    height: 102px;
+    width: 102px;
+    border-radius: 50%;
+}
+.My_picture button {
+    height: 102px;
+    width: 102px;
+    border-radius: 50%;
+    appearance: none;
+    border: 0;
+    cursor: pointer;
+}
+.Enter button {
+    background-color: #0095f6;
+    color: #f7f7f7;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 201.14px;
+    font-weight: 600;
+}
+.Enter a {
+    color: #0095f6;
+    text-decoration: none;
+}
+.Enter p {
+font-size: 15,5px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: #262626;
+
+}
+.Acessibilidade_Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Acessibilidade_Footer ul {
+    list-style-type: none;
+    font-size: 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Acessibilidade_Footer div {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+}
+.Acessibilidade_Footer ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+.Acessibilidade_Footer li a {
+    text-decoration: none;
+    color: #8E8E8E;
+}
+.Acessibilidade_Footer p {
+    color: #8E8E8E;
+    font-size: 13px;
+}
+                                           /*media queries*/
+@media (max-width: 1024px) {
+    .Continue {
+        width: 90%;
+    }
+    
+}
+@media (max-width: 650px) {
+    .Continue {
+        width: 90%;
+    }
+    .PhoneImages {
+        display: none;
+    }
+}
