@@ -2,7 +2,7 @@ body {
     background-color: #f7f7f7;
     margin: auto;
 }
-.Container_Phone_continue {
+.container_Phone_Continue {
     display: flex;
     width: 100%;
     justify-content: center ;
@@ -10,28 +10,28 @@ body {
     margin: auto;
     align-items: center;
 }
-.PhoneImages {
+.phoneImages {
     display: flex;
     align-items: center;
 }
-.PhoneImages img {
+.phoneImages img {
     align-self: center;
     width: 470px;
     height: 620px;
 }
-.PhoneOut {
+.phoneOut {
    padding-top: 30px;
 }
-.PhoneInside {
+.phoneInside {
 position: absolute;
 padding-left: 160px;
 padding-bottom: 10px;
 }
-.PhoneInside img {
+.phoneInside img {
     height: 530px;
     width: 250px;   
 }
-.Continue, .My_picture, .Enter {
+.Continue, .my_picture, .Enter {
     align-items: center;
     text-align: center;
     padding-bottom: 30px;
@@ -57,12 +57,12 @@ padding-bottom: 10px;
     height: 51px;
     width: 175px;
 }
-.My_picture img {
+.my_picture img {
     height: 102px;
     width: 102px;
     border-radius: 50%;
 }
-.My_picture button {
+.my_picture button {
     height: 102px;
     width: 102px;
     border-radius: 50%;
@@ -92,31 +92,31 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: #262626;
 
 }
-.Acessibilidade_Footer {
+.acessibilidade_Footer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.Acessibilidade_Footer ul {
+.acessibilidade_Footer ul {
     list-style-type: none;
     font-size: 13px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.Acessibilidade_Footer div {
+.acessibilidade_Footer div {
     display: flex;
     flex-wrap: wrap;
     -webkit-box-orient: horizontal;
 }
-.Acessibilidade_Footer ul li {
+.acessibilidade_Footer ul li {
     display: inline-block;
     padding-right: 10px;
 }
-.Acessibilidade_Footer li a {
+.acessibilidade_Footer li a {
     text-decoration: none;
     color: #8E8E8E;
 }
-.Acessibilidade_Footer p {
+.acessibilidade_Footer p {
     color: #8E8E8E;
     font-size: 13px;
 }
@@ -131,7 +131,7 @@ color: #262626;
     .Continue {
         width: 90%;
     }
-    .PhoneImages {
+    .phoneImages {
         display: none;
     }
 }

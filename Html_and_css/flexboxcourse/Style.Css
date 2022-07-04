@@ -19,7 +19,7 @@ div img {
     width: 100%;
 }
 
-.flex-container{
+.flex_Container {
     display: flex;
     max-width: 992px;
     margin: auto;
@@ -35,7 +35,7 @@ header {
     color: #fff;
 }
 
-header .list-items {
+header .list_Items {
     display: flex;
     max-width: 260px;
     width: 100%;
@@ -43,7 +43,7 @@ header .list-items {
     align-items: center;
 }
 
-.list-items li a {
+.list_Items li a {
 color: #fff;
 }
 
@@ -57,12 +57,12 @@ justify-content: space-between;
     justify-content: space-between;
 }
 
-.apresentacao .texto-apresentacao {
+.apresentacao .texto_Apresentacao {
     min-height: 200px;
     width: 100%;
 }
 
-.texto-apresentacao h1 {
+.texto_Apresentacao h1 {
     color: #122A57;
     font-size: 48px;
     margin-bottom: 10px;
@@ -113,7 +113,7 @@ margin-bottom: 20px;
     min-width: 420px;
 }
 
-.container-externo {
+.container_Externo {
     background-color: #122A57;
     width: 100%;
 }
@@ -130,16 +130,16 @@ margin-bottom: 20px;
     margin-bottom: 20px;
 }
 
-.list-servicos {
+.list_Servicos {
     display: flex;
     justify-content: space-between;
 }
 
-.list-servicos .item-servico {
+.list_Servicos .item_Servico {
     text-align: center;
 }
 
-.item-servico a {
+.item_Servico a {
     width: 220px;
     background-color: #fff;
     border-radius: 30px;
@@ -154,14 +154,14 @@ margin-bottom: 20px;
     font-weight: 700;
 }
 
-.item-servico p {
+.item_Servico p {
     font-weight: 700;
     font-size: 18px;
     color: #fff;
     margin-top: 20px;
 }
 
-.item-servico img {
+.item_Servico img {
     width: 80%;
     margin: auto;
 }
@@ -176,12 +176,12 @@ padding-top: 50px;
 font-size: 32px;
 }
 
-.list-planos {
+.list_Planos {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
-.item-plano {
+.item_Plano {
     flex: 1;
     border: 5px solid #122A57;
     margin-right: 20px;
@@ -190,12 +190,12 @@ font-size: 32px;
     margin-bottom: 20px;
 }
 
-.item-plano .btn {
+.item_Plano .btn {
     margin: auto;
     margin-bottom: 20px;
 }
 
-.item-plano h3 {
+.item_Plano h3 {
     font-size: 24px;
     display: flex;
     flex-direction: column;
@@ -203,7 +203,7 @@ font-size: 32px;
     margin-top: 20px;
 }
 
-.item-plano h3::after {
+.item_Plano h3::after {
     content: "";
     background-color: #122A57;
     width: 100%;
@@ -212,20 +212,20 @@ font-size: 32px;
     margin-bottom: 10px;
 }
 
-.item-plano ul {
+.item_Plano ul {
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
 }
 
-.item-plano ul li {
+.item_Plano ul li {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
 }
 
-.item-plano ul li::before {
+.item_Plano ul li::before {
     content: "";
     width: 10px;
     height: 10px;
@@ -247,7 +247,7 @@ footer .footer {
 
 /* mobile */
 @media(max-width: 992px) {
-    .flex-container {
+    .flex_Container {
         flex-direction: column;
     }
 
@@ -255,7 +255,7 @@ footer .footer {
         flex-direction: column-reverse;
     }
 
-    .apresentacao .texto-apresentacao {
+    .apresentacao .texto_Apresentacao {
         width: 100%;
     }
 
@@ -268,22 +268,22 @@ footer .footer {
         margin: auto;
     }
     
-    .list-servicos {
+    .list_Servicos {
         flex-direction: column;
     }
 
-    .item-servico img {
+    .item_Servico img {
         width: 50%;
         margin: auto;
     }
 
-    .list-planos {
+    .list_Planos {
         flex-direction: column;
         align-items: flex-start;
         margin-bottom: 20px;
     }
 
-    .list-planos .list-plano {
+    .list_Planos .list_Plano {
         max-width: 90%;
         margin: auto;
         width: 100%;
